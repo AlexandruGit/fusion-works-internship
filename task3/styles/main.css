@@ -1,0 +1,24 @@
+body {
+    background-color: #9b59b6;
+}
+
+.user-avatar {
+    border-radius: 50%;
+}
+
+.about-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.custom-card {
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+#container {
+    margin: 16px;
+}
